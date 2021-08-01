@@ -37,14 +37,14 @@ echo '</td></tr><tr><td valign="middle" align="center" color:red;>';
 echo '</tr><tr><td>';
 // Clipboard_CopyTo2 only uses the whole text line
 echo '</tr><tr><td color:red;><select onchange="Clipboard_CopyTo2(value);" style="width: 90%">';
-
-$file_array = file("file2.txt");
+$file_array = file("/var/www/html/BarCode128/file2.txt");
 //                              sort($file_array);
 foreach ($file_array as $string)
 echo '<option value="'.$string.'">'.$string.'</option>'.PHP_EOL;
 echo "</select>";
 echo '</tr><tr><td valign="middle" align="center" color:red;>';
 ?>
+
 
 	<tr><td>
 		<a href="http://google.com/">
