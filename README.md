@@ -1,6 +1,8 @@
 # Copy-Paste-text
 A simple website to copy and paste if you often use the same texts.
 
+Minimal actions are required
+
 
 Installtation:
 
