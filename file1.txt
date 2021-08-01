@@ -1,0 +1,5 @@
+!8ball  Ask the magic 8-ball a question         0
+!^      TheIlluminati   0
+!^^     TheIlluminati TheIlluminati     0
+!accept         Accept a duel request from another chatter      0
+!accountage     ${user} was created 1 year 5 months 27 days 1 hour ago.         0
